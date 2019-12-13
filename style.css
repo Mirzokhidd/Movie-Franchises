@@ -1,0 +1,553 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*From here my code */
+body {
+    background-color: #1d1817;
+}
+
+.title {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    font-family: "Courier New";
+    text-align: center;
+    text-decoration: underline;
+    color: #FCE205;
+}
+
+
+.textoverimage {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    color: #00FFFF;
+}
+
+/*Star Wars */
+.starwars {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    top: 10px;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.starwars:hover {
+    opacity: 1;
+}
+
+.starwarscentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+
+}
+
+/*Indiana Jones*/
+
+.ij {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.ij:hover {
+    opacity: 1;
+}
+
+.IJcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Star trek*/
+
+.ST {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.ST:hover {
+    opacity: 1;
+}
+
+.STcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Harry Potter*/
+
+.HP {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.HP:hover {
+    opacity: 1;
+}
+
+.HPcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*James Bond*/
+
+.JB {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.JB:hover {
+    opacity: 1;
+}
+
+.JBcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Fast and Furios*/
+
+.FF {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.FF:hover {
+    opacity: 1;
+}
+
+.FFcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Transformers*/
+
+.TR {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.TR:hover {
+    opacity: 1;
+}
+
+.TRcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*X-MEN*/
+
+.XM {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.XM:hover {
+    opacity: 1;
+}
+
+.XMcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Jurrasic Park*/
+.JP {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.JP:hover {
+    opacity: 1;
+}
+
+.JPcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Mission Impossible*/
+
+.MI {
+    width: 70%; 
+    height: 420px; 
+    opacity: 0.2;
+    position: relative;
+    cursor:pointer;
+    border: 5px solid white;
+}
+
+.MI:hover {
+    opacity: 1;
+}
+
+.MIcentered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New";
+}
+
+/*Information*/
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+
+.insidestarwars {
+    position: absolute;
+    top: -150px;
+    right: 250px;
+    border: 5px solid #FCE205;
+}
+
+.infostar {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    right: 500px;
+    bottom: 90px;
+    font-family: "Courier New";
+}
+
+.dot1 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 600px;
+  left: 1380px;
+  border: 2px solid white;
+}
+
+.dot2 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 480px;
+  left: 1380px;
+  border: 2px solid white;
+}
+.dot3 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 360px;
+  left: 1380px;
+  border: 2px solid white;
+}
+.dot4 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 240px;
+  left: 1380px;
+  border: 2px solid white;
+}
+.dot5 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 120px;
+  left: 1380px;
+  border: 2px solid white;
+}
+.dot6 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 600px;
+  left: 80px;
+  border: 2px solid white;
+}
+.dot7 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 480px;
+  left: 80px;
+  border: 2px solid white;
+}
+.dot8 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 360px;
+  left: 80px;
+  border: 2px solid white;
+}
+
+.dot9 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  position: fixed;
+  bottom: 240px;
+  left: 80px;
+  border: 2px solid white;
+}
+.dot10 {
+    font-size: 15px;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+    position: fixed;
+    bottom: 120px;
+    left: 80px;
+    border: 2px solid white;
+}
+
+.by {
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
